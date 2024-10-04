@@ -71,6 +71,13 @@ table thead th {
   z-index: 1;
   color: #e0e0e0;
 }
+tbody tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+tbody tr:hover {
+  background-color: #339b39;
+}
 
 table th,
 table td {
