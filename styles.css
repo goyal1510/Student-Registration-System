@@ -131,3 +131,18 @@ h2 {
   text-align: center;
   color: #e0e0e0;
 }
+
+@media (max-width: 780px) {
+  .new-record {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-student {
+    width: 90%;
+  }
+
+  .student-record {
+    width: 90%;
+  }
+}
